@@ -1,0 +1,159 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+}
+
+main {
+  padding: 20px;
+}
+
+.search-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#search-input {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#search-button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.book-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+
+.book-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 20px;
+}
+
+.book-card img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+.book-card {
+  /* Other styles */
+
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+.headingg{
+  border-radius: 10px;
+}
+.book-card h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.book-card p {
+  margin: 5px 0;
+}
+
+.book-card a {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.book-card a:hover {
+  background-color: #555;
+}
+.add-to-cart-button {
+  margin-left: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  
+}
+
+.add-to-cart-button:hover {
+  background-color: #45a049;
+}
+
+.add-to-cart-button:active {
+  background-color: #3c903c;
+}
+#cart-items{
+  width: 80%;
+  margin-left: 3cm;
+  text-align: center;
+  color: white;
+  
+  font-size: 20px;
+ 
+}
+#cart-item {
+ 
+  display: flex;
+  align-items: center;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+#search-count{
+  border-radius: 10px;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: orange;
+  padding: 2px;
+  width:20%;
+  margin-left: 14cm;
+}
+.request{
+  width:65%;
+  margin-left: 6cm;
+  border-radius: 10px;
+}
+.remove-button {
+  float: right;
+  margin-right: 1cm;
+  margin-top:-1cm;
+  background-color: red;
+  color: white;
+  padding: 10px 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+.remove-button:hover {
+  background-color: darkred;
+}
+
+

@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Home - Append Bootstrap Temlate</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    .image {
+      width: 280px;
+      height: 300px;
+    }
+    .navmenu i.fa {
+      font-size: 20px; 
+    }
+    .navmenu a{
+      font-size: 20px;
+      font-weight:bold; 
+    }
+    .h1{
+      margin-left: 2cm;
+      font-size: 35px;
+    }
+    .navmenu a:hover{
+      background-color: black;
+      border-radius: 10px;
+    }
+    .last{
+      margin-left: 10cm;
+      margin-top: 1cm;
+    }
+    .last a{
+     margin-left: 9cm;
+     margin-top: 10px;
+    }
+    nav ul li.active a {
+      /* Active navigation link styles */
+      color: orange;
+    }
+    
+    
+  </style>
+  
+
+</head>
+
+<body class="index-page" data-bs-spy="scroll" data-bs-target="#navmenu class="header fixed-top d-flex align-items-center">
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+    <div class="container-fluid d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <div class="h1">
+          <h1>LIBRARY</h1>
+        </div>
+        
+      </a>
+
+      <!-- Nav Menu -->
+      <nav id="navmenu" class="navmenu navbar-expand-lg" >
+        <ul>
+          <li><a href="index.html#hero" class="active"><i class="fa fa-home"></i>Home</a></li>
+          <li><a href="#recent-posts"><i class="fa fa-book"></i>Books</a></li>
+          <li><a href="explore.html"><i class="fa fa-search"></i>Explore</a></li>
+          <li><a href="signin.html"><i class="fa fa-sign-in"></i>Signin/Signup</a></li>
+          <li><a href="logout.html"><i class="fa fa-sign-out"></i>Logout</a></li>
+          <li><a href="index.html#contact"><i class="fa fa-envelope"></i>Contact</a></li>
+        </ul>
+
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <section id="hero" class="hero">
+
+        <img src="https://png.pngtree.com/thumb_back/fh260/background/20210902/pngtree-the-background-photography-of-the-empty-library-bookstore-indoors-image_785539.jpg" alt="" data-aos="fade-in">
+  
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-10">
+              <h2 data-aos="fade-up" data-aos-delay="100">Welcome to Our Bookworm's Paradise</h2>
+              <p data-aos="fade-up" data-aos-delay="200">Empowering Readers, Enriching Minds: Embrace the Benefits of Our Library Management System</p>
+            </div>
+          </div>
+        </div>
+  
+      </section><!-- End Hero Section -->
+
+    <section id="recent-posts" class="recent-posts">
+
+      <!--  Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Book Bliss</h2>
+        <p>Library Favorites: Immerse Yourself in the Books Loved by Many!</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+        <div class="row gy-3">
+      
+          <div class="col-md-3">
+            <div class="card">
+              <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTuh6Hr7-J0_upT3pBrBlLN0uj4GggEDvVeSWLKqCs4WnJfhIOJUO2REMmVhvZmEcf3aMZShBva7BUmKuamRdPrKWOS7iDDa8_b0F7qC79fC_dlmx0Z5LrM&usqp=CAE" alt="Book Cover" class="image">
+              <div class="card-body">
+                <h5 class="card-title">The Dhoni Touch</h5>
+                <p class="card-text"> The Dhoni Touch unravelling the enigma that is Mahendra singh dhoni.</p>
+                <a href="https://www.yumpu.com/en/document/view/66350859/dhoni-touch" class="btn btn-primary">Read Book</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRkboarMPYK8Zv6PjPTbvKisEDxhrIsoLqxLz2eDbpd-B1sXDpKZUjAOSr6Y3SjECQtr9Lhw6hTYBo5QWg-m1SdtH4WJs-Uft9F5O1J2nIsMkoDE3JbXAQ07g&usqp=CAE" alt="Book Cover" class="image">
+              <div class="card-body">
+                <h5 class="card-title">THE EVERYDAY HERO</h5>
+                <p class="card-text">For over twenty-five years, leadership legend and personal-mastery path-blazer Robin Sharma</p>
+                <a href="https://static1.squarespace.com/static/6454d0e3f3bc4754dc7070f4/t/645f39e7ffd19107a6b49418/1683962344069/everyday_hero_book.pdf" class="btn btn-primary">Read Book</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSjyoqfe5JQKeu288AQo5IVfP9hGdt-qmI3i1zaaHo1EX3hb9FqnIiHKvrVzR29hohaAB-tEUN2fNYDGprr-BlgfUMFmBEjr9AaVEemomJ-mXqIM525H-00&usqp=CAE" alt="Book Cover" class="image">
+              <div class="card-body">
+                <h5 class="card-title">YES I AM A POLITICIAN</h5>
+                <p class="card-text">This book is about highlights the experiences, insights, and challenges faced by politicians.</p>
+                <a href="https://www.kobo.com/gr/en/ebook/yes-i-am-a-politician" class="btn btn-primary">Read Book</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQsGJHPZiT9TKydLQGOpSJ-_i_JB1lpBd-SS7r0NyB5uO9MKAPVNIvj-LcEtXX95uLKSH5hFZAnvzyw9PbmjQXZ-lsB2Vv6MlbyXrXSkIA&usqp=CAE" alt="Book Cover" class="image">
+              <div class="card-body">
+                <h5 class="card-title">	
+                  THE POWER OF YOUR SUBCONSCIOUS MIND</h5>
+                <p class="card-text">This is a groundbreaking book that explores the incredible potential of your subconscious mind</p>
+                <a href="http://healthmantra.com/subconscious-mind.pdf" class="btn btn-primary">Read Book</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcT_FuTMqjduEvVGRDgujutF32U_RFf5FIauotX8T4Z3C-SzRKHzBTaBEPK08F4-yCRq0KvAa5LEBQnfYsL74qXNtsTkAlSjYjCIys--NmSPGgWQVrHeppU0dA&usqp=CAE" alt="Book Cover" class="image">
+              <div class="card-body">
+                <h5 class="card-title">	
+                  Sherlock Holmes: The Complete Novels</h5>
+                <p class="card-text">The Complete Novels" is a collection of detective stories featuring the iconic character Sherlock Holmes, created by Sir Arthur Conan Doyle.</p>
+                <a href="https://www.noor-book.com/en/ebook-The-complete-novels-of-Jane-Austen-pdf" class="btn btn-primary">Read Book</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSxP53XZYXghnE4yEMc1rvDrCJdJ_CzuNCpicLCVITuHZAZYGzNKLAXK8c2100exzPAGnp-Y7zfmiTzvyDVFfhIq3RZYkljEIZgoM4jCmor&usqp=CAE" alt="Book Cover" class="image">
+              <div class="card-body">
+                <h5 class="card-title">THE LAST TRAIN TO LONDON</h5>
+                <p class="card-text">This is a gripping historical fiction novel that explores the heroic efforts of a woman who saves Jewish children during World War II.</p>
+                <a href="https://www.scribd.com/document/371893624/Last-Train-to-London" class="btn btn-primary">Read Book</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQ5hExZKNHr7AFnTAIATbl5nksr0v9Cnsbv32BvOV5wFu5oZEE7xYjRzftzgKhubWpthKbs-BbzqzcVmrfGAwcMjFuL6SYGYfbpA2FLPtA&usqp=CAE" alt="Book Cover" class="image">
+              <div class="card-body">
+                <h5 class="card-title">	
+                  Bhagavad Gita Yatharoop</h5>
+                <p class="card-text">The Bhagavad Gita Yatharoop, often referred to as the Gita, is a 700 verse Hindu scripture in Sanskrit that is part of the Hindu epic Mahabharata.</p>
+                <a href="https://ebooks.iskcondesiretree.com/pdf/00_-_Srila_Prabhupada/Bhagavad_Gita/Bhagavad_Gita_As_It_Is.pdf" class="btn btn-primary">Read Book</a>
+              </div>
+            </div>
+          </div>
+      
+          <div class="col-md-3">
+            <div class="card">
+              <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSsIpG8KO9rkcXxrbqq4pjtSH5uYNxYYSSYB3c5mMT90bS7yAZQcymB7DzmFBmk8O5DCJ4ILGsMcWQfQXQmZwHjTNI04_hSshnE2GspLBe0gxrglwxtXmMQ&usqp=CAE" alt="Book Cover" class="image">
+              <div class="card-body">
+                <h5 class="card-title">Think Like A Programmer</h5>
+                <p class="card-text"> An Introduction To Creative Problem SolvingMany programmers struggle to write programs, even though they understand their chosen programming language.</p>
+                <a href="https://www.yumpu.com/en/document/view/63918595/pdf-think-like-a-programmer-an-introduction-to-creative-problem-solving-word" class="btn btn-primary">Read Book</a>
+              </div>
+            </div>
+          </div>
+      
+        </div>
+      </div>
+  
+      <div class="last">
+        <h4>Discover a Vast Collection of Books in Our Exploration Section</h4>
+        <a href="explore.html" class="btn btn-primary">Explore</a>
+      </div>
+    <!-- Contact Section - Home Page -->
+    <section id="contact" class="contact">
+
+      <!--  Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>Let's Talk: Contact Us for Any Library Management Related Inquiries!</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6">
+
+            <div class="row gy-4">
+              <div class="col-md-6">
+                <div class="info-item" data-aos="fade" data-aos-delay="200">
+                  <i class="bi bi-geo-alt"></i>
+                  <h3>Address</h3>
+                  <p> SV College of Engineering Karakambadi Road </p>
+                  <p>Andhra Predesh, Tirupathi-517507</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="col-md-6">
+                <div class="info-item" data-aos="fade" data-aos-delay="300">
+                  <i class="bi bi-telephone"></i>
+                  <h3>Call Us</h3>
+                  <p>+91 888 664 4985</p>
+                  <p>+91 888 664 4986</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="col-md-6">
+                <div class="info-item" data-aos="fade" data-aos-delay="400">
+                  <i class="bi bi-envelope"></i>
+                  <h3>Email Us</h3>
+                  <p>info@example.com</p>
+                  <p>contact@example.com</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="col-md-6">
+                <div class="info-item" data-aos="fade" data-aos-delay="500">
+                  <i class="bi bi-clock"></i>
+                  <h3>Open Hours</h3>
+                  <p>Monday - Saturday</p>
+                  <p>9:00AM - 05:00PM</p>
+                </div>
+              </div><!-- End Info Item -->
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-6">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                </div>
+
+                <div class="col-md-6 ">
+                  <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+                </div>
+
+                <div class="col-md-12">
+                  <input type="text" class="form-control" name="subject" placeholder="Subject" required>
+                </div>
+
+                <div class="col-md-12">
+                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                  <button type="submit">Send Message</button>
+                </div>
+
+              </div>
+            </form>
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- End Contact Section -->
+    
+
+  </main>
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-5 col-md-12 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span>LIBRARY</span>
+          </a>
+          <p>Transform Your Library Experience: Unleash the Power of Our Management System. Effortless Administration, Endless Possibilities: See What Our System Can Do for You</p>
+          <div class="social-links d-flex mt-4">
+            <a href=""><i class="bi bi-twitter"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Books</a></li>
+            <li><a href="#">Explore</a></li>
+            <li><a href="#">Terms of service</a></li>
+            <li><a href="#">Privacy policy</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><a href="#">Web Design</a></li>
+            <li><a href="#">Web Development</a></li>
+            <li><a href="#">Product Management</a></li>
+            <li><a href="#">Marketing</a></li>
+            <li><a href="#">Graphic Design</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+          <h4>Contact Us</h4>
+          <p>SV College of Engineering Karakambadi Road</p>
+          <p>Andhra Predesh, Tirupathi-517507</p>
+          <p>India</p>
+          <p class="mt-4"><strong>Phone:</strong> <span>+91 888 664 4985</span></p>
+          <p><strong>Email:</strong> <span>info@example.com</span></p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>&copy; <span>Copyright</span> <strong class="px-1">LIBRARY</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+
+  </footer><!-- End Footer -->
+
+  <!-- Scroll Top Button -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

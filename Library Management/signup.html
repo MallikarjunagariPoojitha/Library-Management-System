@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Social Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="signin.css">
+    <style>
+        body{
+            background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20210902/pngtree-the-background-photography-of-the-empty-library-bookstore-indoors-image_785539.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 700px
+            
+        }
+        .navbar {
+            height: 100px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: #f8f8f8;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar-logo {
+          margin-left: 2cm;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .navbar-menu {
+            display: flex;
+            align-items: center;
+        }
+
+        .navbar-menu a {
+            font-size: 20px;
+            display: inline-block;
+            margin-right: 1cm;
+            font-weight: bold;
+            color: #333;
+            text-decoration: none;
+        }
+        .navbar-menu a:hover{
+            text-align: center;
+            background-color: black;
+            border-radius: 10px;
+            color: orange;
+            font-weight: bold;
+            width:110px;
+            height: 50px;
+            margin-top: 10px;  
+        }
+
+        .navbar-menu a i {
+            margin-right: 5px;
+        }
+        
+          
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navbar-logo">LIBRARY</div>
+        <div class="navbar-menu">
+            <a href="index.html"><i class="fa fa-home"></i>Home</a>
+            <a href="index.html#recent-posts"><i class="fa fa-book"></i>Books</a>
+            <a href="explore.html"><i class="fa fa-search"></i>Explore</a>
+            <a href="signin.html"><i class="fa fa-sign-in"></i>Signin/Signup</a>
+            <a href="logout.html"><i class="fa fa-sign-out"></i> Logout</a>
+            <a href="index.html#contact"><i class="fa fa-envelope"></i> Contact</a>
+        </div>
+    </div>
+
+
+    <form action="index.html" class="login">
+        <header><img src="https://i.pinimg.com/736x/97/21/05/972105c5a775f38cf33d3924aea053f1.jpg"></header>
+        <div class="field"><span class="fa fa-user"></span><input type="text" placeholder="Email or Username" required></div>
+        <div class="field"><span class="fa fa-lock"></span><input type="password" placeholder="Password" required></div>
+        <div class="forgot-password"><a href="">Forgot password?</a></div>
+        <input type="submit" class="submit" value="SIGNUP">
+          
+        <div class="social-icons">
+            <div class="social-icon instagram"><span class="fa fa-instagram"></span></div>
+            <div class="social-icon facebook"><span class="fa fa-facebook"></span></div>
+            <div class="social-icon google"><span class="fa fa-google"></span></div>
+            <div class="social-icon linkedin"><span class="fa fa-linkedin"></span></div>
+            <div class="social-icon twitter"><span class="fa fa-twitter"></span></div>
+        </div>
+    </form>
+
+</body>
+
+</html>
